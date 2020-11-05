@@ -1,7 +1,7 @@
 # parameters
-ARG REPO_NAME="<REPO_NAME_HERE>"
-ARG DESCRIPTION="<DESCRIPTION_HERE>"
-ARG MAINTAINER="<YOUR_FULL_NAME> (<YOUR_EMAIL_ADDRESS>)"
+ARG REPO_NAME="ros-wrapper"
+ARG DESCRIPTION="ros wrapper for duckietown-gym for AMOD HW5"
+ARG MAINTAINER="Silvan Loew (loewsi@ethz.ch)"
 # pick an icon from: https://fontawesome.com/v4.7.0/icons/
 ARG ICON="cube"
 
@@ -45,6 +45,7 @@ ENV DT_MAINTAINER "${MAINTAINER}"
 ENV DT_REPO_PATH "${REPO_PATH}"
 ENV DT_LAUNCH_PATH "${LAUNCH_PATH}"
 ENV DT_LAUNCHER "${LAUNCHER}"
+ENV VEHICLE_NAME fakebot
 
 # install apt dependencies
 COPY ./dependencies-apt.txt "${REPO_PATH}/"

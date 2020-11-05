@@ -1,0 +1,5 @@
+<launch>
+
+    <node pkg="ros_wrapper" type="ros_wrapper_node.py" name="ros_wrapper_node" output="screen"/>
+
+</launch>

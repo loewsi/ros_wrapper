@@ -1,0 +1,11 @@
+<package>
+  <name>ros_wrapper</name>
+  <version>0.1.0</version>
+  <description>
+  ROS Wrapper for gym_duckietown AMOD HW5.
+  </description>
+  <maintainer email="loewsi@ethz.ch">Silvan Loew</maintainer>
+  <license>None</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
